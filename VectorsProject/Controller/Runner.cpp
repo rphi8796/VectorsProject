@@ -11,6 +11,6 @@
 
 int main()
 {
-    Controller *app = new Controller();
-    app->start();
+    Controller app;
+    app.start();
 }
